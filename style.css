@@ -1,7 +1,18 @@
+/* Header image*/
+.img2 img {
+    width: 200px;
+    border: 0px solid green;
+    padding: 0px, 30px, 30px, 30px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 img {
 
     width: 500px;
-    border: 2px solid green;
+    border: 0px solid green;
     padding: 0px, 30px, 30px, 30px;
     margin-top: 3px;
     margin-bottom: 20px;
@@ -129,7 +140,17 @@ hr.hline1{
     text-align: left;
 }
 
+/*display side by side*/
+
 .container {
     display: flex;
 }
 
+.column1{
+    width: 30%;
+}
+
+.column2{
+
+    width: 70%;
+}
